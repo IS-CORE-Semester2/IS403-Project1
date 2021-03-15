@@ -38,7 +38,7 @@ namespace IS403_Project1.Controllers
         }
 
 
-        //COMMENTED OUT UNTIL THE CORRECT FORMS AND OBJECTS ARE CREATED THAT WILL ALLOW ME TO PASS IN THE INFO I 
+        ////COMMENTED OUT UNTIL THE CORRECT FORMS AND OBJECTS ARE CREATED THAT WILL ALLOW ME TO PASS IN THE INFO I NEED FOR THE SIGN UP INFO
         ////Sign Up Page FORM POST
         //[HttpPost]
         //public IActionResult SignUp(SignUpInfo oSignUpInfo) //I NEED TO PUT IN THE CORRECT ROUTE FOR THE MODEL BEFORE THIS WILL WORK
@@ -46,6 +46,11 @@ namespace IS403_Project1.Controllers
         //    //don't submit the form unless everything has been inputted correctly.
         //    if (ModelState.IsValid)
         //    {
+        //        //Add entry to  DB
+        //        context.Tasks.Add(oSignUpInfo);
+        //        //update DB
+        //        context.SaveChanges();
+        //        //send them back to the home page
         //        return View("Index");
         //    }
         //    //if incorrect, just send them the form page again
