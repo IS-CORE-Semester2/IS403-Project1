@@ -27,6 +27,15 @@ namespace IS403_Project1.Controllers
         //Sign Up Page Showing Available Times
         public IActionResult Availability()
         {
+            //TO BE USED ONCE WE HAVE A VIEWMODEL THAT PASSES IN ALL OF THE APPOINTMENTS WITH AN AVAILABLE TRUE/FALSE MARKER
+            //return View(new SignUpViewModel
+            //{
+            //    //filter appointments by availability Store it in a viewmodel and then pass it to the view
+            //    AvailableAppointments = context.Appointments
+            //        .Where(x => x.Available == true)
+            //});
+
+            //WHAT I'M USING FOR NOW JUST TO RETURN THE VIEW. WILL BE DELETED AND PREVIOUS SECTION WILL BE UNCOMMENTED
             return View();
         }
 
